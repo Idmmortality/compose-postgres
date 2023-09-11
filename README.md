@@ -8,6 +8,9 @@
 ## Quick Start
 * Clone or download this repository
 * Go inside of directory,  `cd compose-postgres`
+* Run these commands to set folder permissions:
+   * `sudo chown *user*:*user* pgamdin -R`
+   * `sudo chmod 777 pgadmin -R` 
 * Run this command `docker-compose up -d`
 
 
